@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+nav {
+	height: 50px;
+	background-color: lightgrey;
+	padding: 12px;
+	font-size: 20px;
+}
+
+.nostyle {
+	list-style: none;
+}
+
+.right {
+	text-align: right;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+.inline li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	color: purple
+}
+
+.sitename {
+	position: absolute;
+}
+
+.searchbar {
+	font-size: 17px;
+}
+
+.fa-search {
+	padding: 5px;
+}
+
+main {
+	padding: 60px 100px 0 100px;
+}
+
+.border {
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+div.navigation span {
+	padding: 8px 15px;
+}
+
+.navigation {
+	margin-top: 40px;
+	font-size: 0px;
+}
+
+.no-right-curve {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.no-left-curve {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.nav-element {
+	font-size: 13px;
+}
+
+.listings {
+	margin-top: 50px;
+}
+
+.posts {
+	margin-top: 10px;
+}
+
+.posts span {
+	margin-left: 10px;
+}
+
+.grey {
+	color: grey;
+}
+
+.boldlink a {
+	text-decoration: none;
+	font-weight: 900;
+}
+
+.fa-star:hover {
+	color: gold;
+}
